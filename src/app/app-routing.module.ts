@@ -7,7 +7,7 @@ import { CancelPaymentComponent } from './cancel-payment/cancel-payment.componen
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { NotfoundComponent } from './notfound/notfound.component';
-import { SubscribePaymentComponent } from './subscribe-payment/subscribe-payment.component';
+//import { SubscribePaymentComponent } from './subscribe-payment/subscribe-payment.component';
 import { SucessPaymentComponent } from './sucess-payment/sucess-payment.component';
 //import { UpdateemployeeComponent } from './updateemployee/updateemployee.component';
 
@@ -25,9 +25,9 @@ const routes: Routes = [
   {
     path:'addEmployee', component: AddEmployeeComponent
   },
-  {
+  /*{
     path:'subscribePayment', component: SubscribePaymentComponent, canActivate:[AuthGuard]
-  },
+  },*/
   { path: 'cancel', component: CancelPaymentComponent, canActivate:[AuthGuard]},
   { path: 'success', component: SucessPaymentComponent, canActivate:[AuthGuard]},
   /*{

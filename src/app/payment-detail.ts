@@ -1,6 +1,5 @@
-export interface PaymentDetail {
-   
-	
+export interface PaymentDetails {
+   	
 	productName:string;
 	
 	customerEmailId:string;

@@ -2,4 +2,11 @@
     <ngx-loading-bar [height]="'10px'" [color]="'#28a745'" [diameter]="'30px'"></ngx-loading-bar>
 <app-header></app-header>
   <h1> Thank you !  Now you can Access our service</h1>
-
+<div>
+  <button (click)="onCancelSubscription()" 
+  class="btn btn-warning">Cancel Subscription
+  </button>
+  <button (click)="onResumeSubscription()" 
+  class="btn btn-danger">Resume Subscription
+  </button>
+</div>

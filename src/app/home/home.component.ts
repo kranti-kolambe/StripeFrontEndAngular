@@ -22,6 +22,8 @@ export class HomeComponent {
       amount: 999,
       quantity: '1',
       cancelUrl: 'http://localhost:4200/cancel',
+
+      
       successUrl: 'http://localhost:4200/success',
     };
 

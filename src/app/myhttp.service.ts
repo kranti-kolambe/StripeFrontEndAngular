@@ -34,10 +34,10 @@ export class MyhttpService {
  getAllSubscription(){
   return (this.http.get('http://localhost:8081/api/getAllSubscription'));
 }
-changeStatus(empobj){
-  return (this.http.post(`${this.baseUrl}changeStatus`,empobj,{responseType:"text"}));
+changeStatus(email){
+  return (this.http.post(`${this.baseUrl}changeStatus`,email,{responseType:"text"}));
 }
-setPaymentDetail(paymetDetail){
-  return (this.http.post(`${this.baseUrl}setPaymentDetail`,paymetDetail,{responseType:"text"}));
+setPaymentDetail(paymetDetails){
+  return (this.http.post(`${this.baseUrl}setPaymentDetail`,paymetDetails,{responseType:"text"}));
 }
 }
